@@ -13,7 +13,7 @@ Para poder instalar y ejecutar el proyecto en nuestro entorno local debemos real
 2.- Descargar el codigo desde el repositorio en github.
 3.- Como usamos una libreria externa, en este caso flask, debemos activar el entorno virtual mediante el siguiente comando .\env\Scripts\Activate, con esto de instalara flask en dicho entorno virtual y podremos ejecutar y utlizar dicha libreria.
 4.- Una vez activado el entorno virtual podremos ejecutar la aplicación de escritorio y la aplicación de flask.
-5.- Para ejecutar la aplicación de escritorio debemos crear una terminal nueva y ejecutar el siguiente comando " & C:/Python312/python.exe d:/python_avanzado_proyecto/main.py ", una vez ejecutado tendremos acceso y control de nuestra aplicación en la terminal.
+5.- Para ejecutar la aplicación de escritorio debemos crear una terminal nueva y ejecutar el siguiente comando " & C:/Python312/python.exe d:/python_avanzado_proyecto/app_terminal/main.py ", una vez ejecutado tendremos acceso y control de nuestra aplicación en la terminal.
 6.- Para ejecutar la aplicación web debemos crear una terminal nueva y ejecutar el siguiente comando " & C:/Python312/python.exe d:/python_avanzado_proyecto/app_flask/app.py ", una vez ejecutado daremos inicio al sevidor de flask en el cual se aloja nuestra aplicación web.
 
 Uso:
@@ -29,4 +29,5 @@ Uso:
 -Aplicación de templates web con flask: al iniciar la ejecución del programa mediante los pasos mencionados, veremos que se despliegua la ejecuciónd el servidor de flask con el siguiente puerto " http://127.0.0.1:5000 ", en el navegador al enviar esta ruta nos mostrara el template web con los pedidos que tengamos creados y registrados en la base de datos. En el template principal en caso de tener registros que se muestren veremos que nos muestra dos opciones una para ver datos de los pedidos y otra para eliminar dichos pedidos.
 
 --Función que muestra los datos del pedido: esta es una función simple, al hacer click nos redirige a otro template en el que se mostraran todos los datos de pedido seleccionado.
---función que elimina el pedido: esta es una función simple que toma un elemento identificador del dato seleccionado y mediante un función que toma este dato lo elimina de la base de datos y actualiza la tabla del template.
+--Función que elimina el pedido: esta es una función simple que toma un elemento identificador del dato seleccionado y mediante un función que toma este dato lo elimina de la base de datos y actualiza la tabla del template.
+

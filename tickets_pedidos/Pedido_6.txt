@@ -1,0 +1,5 @@
+
+    Cliente: xavier
+    Producto: Pollo empanizado
+    Precio: 55.0
+    
