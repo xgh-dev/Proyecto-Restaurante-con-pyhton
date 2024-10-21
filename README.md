@@ -31,3 +31,12 @@ Uso:
 --Función que muestra los datos del pedido: esta es una función simple, al hacer click nos redirige a otro template en el que se mostraran todos los datos de pedido seleccionado.
 --Función que elimina el pedido: esta es una función simple que toma un elemento identificador del dato seleccionado y mediante un función que toma este dato lo elimina de la base de datos y actualiza la tabla del template.
 
+Estructura del proyecto:
+La estrucutra de estre proyecto la manejamos mediante carpetas, las cuales tienen distintas funcionalidades y cada una es independiente de otras. 
+-La carpeta " app_flask " es la carpeta encargada de realizar la ejecución de la aplicación web con la libreria flask.
+-La carpeta " app_terminal " es la carpeta encargada de realizar la ejecución de la aplicación de terminal.
+-La carpeta " database " es la carpeta donde guardamos nuestra base de datos.
+-La carpeta " env " es la carpeta que contiene el entorno virtual y las librerias externas necesarias para la ejecución de la aplicación de flask.
+-La carpeta " tickets_pedidos " es la carpeta que guarda los tickets que se crean cuando creamos un pedido.
+-El archivo README.md contiene información respecto a toda la aplicación.
+
