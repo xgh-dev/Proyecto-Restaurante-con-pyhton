@@ -112,4 +112,3 @@ def restaurante():
         else:
             print("Por favor ingrese una opción valida")
 restaurante()     
-#imprimir_clientes()
