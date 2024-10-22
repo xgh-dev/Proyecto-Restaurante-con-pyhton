@@ -1,5 +1,5 @@
 
-    Cliente: xavier 
-    Producto: quesadillas 
-    Precio: 50.0
+    Cliente: xavier
+    Producto: quesadillas
+    Precio: 35.0
     
