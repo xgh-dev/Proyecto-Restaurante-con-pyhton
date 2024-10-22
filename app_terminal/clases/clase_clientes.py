@@ -31,7 +31,7 @@ class Cliente:
         Retorna:
         - str: Información del cliente.
         """
-        return f"Clave: {self.clave}, Cliente: {self.nombre}, Direccción: {self.direccion}, Tel: {self.telefono}, Email: {self.correo_electronico})"
+        return f"Clave: {self.clave}, Cliente: {self.nombre}, Direccción: {self.direccion}, Tel: {self.telefono}, Email: {self.correo_electronico}"
     def actualizarNombre(self,nuevoNombre):
         """
         Actualiza el nombre del cliente.

@@ -140,7 +140,7 @@ def cancelarPedido(listaPedidos):
     3. Cancela el pedido seleccionado llamando al método `borrarPedido()` del objeto pedido.
     """
     for i in range(len(listaPedidos)):
-        print(f"{i + 1}.-{listaPedidos[i]}")
+        print(f"-------- Número del pedido para cancelar {i + 1} --------{listaPedidos[i]}")
     seleccion = int(input("Seleccione el número del pedido que desea cancelar: "))
     pedidoSeleccionado = listaPedidos[seleccion - 1]
     #Cancelar el pedido

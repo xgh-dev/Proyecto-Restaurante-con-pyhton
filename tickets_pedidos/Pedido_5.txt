@@ -1,5 +1,5 @@
 
-    Cliente: Sidney
-    Producto: Pollo empanizado
-    Precio: 55.0
+    Cliente: dana
+    Producto: torta de milanesa
+    Precio: 45.0
     
